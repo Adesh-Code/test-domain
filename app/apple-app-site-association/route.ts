@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(res: NextResponse, req : NextRequest) {
+export async function GET(req : NextRequest, res: NextResponse) {
 
     const json = {
         "applinks": {
